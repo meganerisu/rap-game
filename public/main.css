@@ -1,7 +1,13 @@
 div {
-    width: 300px;
+    width: 350px;
     padding: 10px;
     text-align: center;
     border: 1px  solid #cccccc;
     margin: 30px auto;
+}
+
+#voice {
+    width: 100px;
+    height: 60px;
+    margin: 10px auto;
 }

@@ -8,13 +8,31 @@
         <title>rhythm-game</title>
     </head>
     <body>
-        <audio id="dango" preload="auto">
-            <source src="01 だんご3兄弟.mp3" type="audio/mp3">
+        <audio id="kiretawa" preload="auto">
+            <source src="キレたわ.mp3" type="audio/mp3">
+        </audio>
+        <audio id="bukii" preload="auto">
+            <source src="ぶきぃ〜！.mp3" type="audio/mp3">
+        </audio>
+        <audio id="bukibuki" preload="auto">
+            <source src="ぶきぶきしてきたわ.mp3" type="audio/mp3">
+        </audio>
+        <audio id="pachikasu" preload="auto">
+            <source src="30代後半独身パチンカス.mp3" type="audio/mp3">
         </audio>
         <div>
             <h1>IBUKITHM</h1>
-            <button type="button" name="button" onclick="sound()">
+            <button type="button" id="voice" name="kiretawa" onclick="sound(this.name)">
+                キレたわ
+            </button>
+            <button type="button" id="voice" name="bukii" onclick="sound(this.name)">
                 button
+            </button>
+            <button type="button" id="voice" name="bukibuki" onclick="sound(this.name)">
+                button
+            </button>
+            <button type="button" id="voice" name="pachikasu" onclick="sound(this.name)">
+                30代後半独身<br>パチンカス
             </button>
         </div>
     </body>

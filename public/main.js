@@ -1,3 +1,3 @@
-function sound() {
-    document.getElementById("dango").play();
+function sound(id) {
+    document.getElementById(id).play();
 }
