@@ -1,13 +1,21 @@
-div {
-    width: 350px;
+.main {
+    width: 95%;
     padding: 10px;
     text-align: center;
     border: 1px  solid #cccccc;
     margin: 30px auto;
 }
 
-#voice {
+#voices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.voice {
     width: 100px;
     height: 60px;
     margin: 10px auto;
+    text-align: center;
 }

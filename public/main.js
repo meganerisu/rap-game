@@ -1,3 +1,3 @@
-function sound(id) {
-    document.getElementById(id).play();
+function sound(name) {
+    document.getElementById(name).play();
 }
