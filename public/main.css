@@ -1,35 +1,38 @@
 .main {
-    width: 95%;
-    padding: 10px;
+    width: 98%;
     text-align: center;
     border: 1px  solid #cccccc;
-    margin: 30px auto;
+    margin: 2% auto;
 }
 
-#voices {
+#sentences {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
 }
-/*
-.voice {
-}*/
 
-.voice {
+.category {
+    width: 95%;
+    text-align: center;
+    border: 1px  solid #cccccc;
+    margin: 2% auto;
+}
+
+.sentence {
     display: inline-block;
     width: 100px;
     height: 60px;
     margin: 10px auto;
     text-align: center;
-    padding: 0.1em 0.5em;
+    /*padding: 0.1em 0.5em;*/
     text-decoration: none;
     background: #668ad8;/*ボタン色*/
     color: #FFF;
     border-bottom: solid 4px #627295;
     border-radius: 3px;
   }
-  .voice:active {
+  .sentence:active {
     /*ボタンを押したとき*/
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*下に動く*/

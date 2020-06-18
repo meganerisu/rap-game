@@ -17,59 +17,119 @@
     <body>
         <div>
             <audio id="kiretawa" preload="auto">
-                <source src="audio/キレたわ.mp3" type="audio/mp3">
+                <source src="audio/キレたわ.mp3" type="audio/mp3" controlsList="nodownload">
             </audio>
             <audio id="bukii" preload="auto">
-                <source src="audio/ぶきぃ〜！.mp3" type="audio/mp3">
+                <source src="audio/ぶきぃ〜！.mp3" type="audio/mp3" controlsList="nodownload">
             </audio>
             <audio id="bukibuki" preload="auto">
-                <source src="audio/ぶきぶきしてきたわ.mp3" type="audio/mp3">
+                <source src="audio/ぶきぶきしてきたわ.mp3" type="audio/mp3" controlsList="nodownload">
             </audio>
             <audio id="pachikasu" preload="auto">
-                <source src="audio/30代後半独身パチンカス.mp3" type="audio/mp3">
+                <source src="audio/30代後半独身パチンカス.mp3" type="audio/mp3" controlsList="nodownload">
             </audio>
             <audio id="a?" preload="auto">
-                <source src="audio/あ？.mp3" type="audio/mp3">
+                <source src="audio/あ？.mp3" type="audio/mp3" controlsList="nodownload">
             </audio>
             <audio id="daaatt" preload="auto">
-                <source src="audio/あ゛あ゛っ.mp3" type="audio/mp3">
+                <source src="audio/あ゛あ゛っ.mp3" type="audio/mp3" controlsList="nodownload">
             </audio>
             <audio id="sad" preload="auto">
-                <source src="audio/悲しいなぁ.mp3" type="audio/mp3">
+                <source src="audio/悲しいなぁ.mp3" type="audio/mp3" controlsList="nodownload">
             </audio>
             <audio id="death" preload="auto">
-                <source src="audio/死だよ死.mp3" type="audio/mp3">
+                <source src="audio/死だよ死.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="aaa" preload="auto">
+                <source src="audio/ああぁ～ぁあ.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="mo-" preload="auto">
+                <source src="audio/も～.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="wakatta?" preload="auto">
+                <source src="audio/わかった？.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="sadja" preload="auto">
+                <source src="audio/悲しいんじゃ.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="kanojo" preload="auto">
+                <source src="audio/彼女が欲しいんっじゃっ.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="orenke" preload="auto">
+                <source src="audio/オレンケ.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="iamsad" preload="auto">
+                <source src="audio/私は悲しい.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="ha-n" preload="auto">
+                <source src="audio/んあ～はは～は～ん.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+            <audio id="DYU" preload="auto">
+                <source src="audio/DoYouUnderstand.mp3" type="audio/mp3" controlsList="nodownload">
+            </audio>
+
+            <audio id="drumloop112" preload="auto">
+                <source src="audio/Drum-beat-loop-112-bpm.mp3" type="audio/mp3" controlsList="nodownload">
             </audio>
         </div>
         
 
         <div class="main">
             <h1>IBUKITHM</h1>
-            <div id="voices">
-                <button type="button" class="voice" name="kiretawa" onclick="sound(this.name)">
-                    キレたわ
-                </button>
-                <button type="button" class="voice" name="bukii" onclick="sound(this.name)">
-                    ぶきぃ〜！
-                </button>
-                <button type="button" class="voice" name="bukibuki" onclick="sound(this.name)">
-                    ぶきぶきして<br>きたわ
-                </button>
-                <button type="button" class="voice" name="pachikasu" onclick="sound(this.name)">
-                    30代後半独身<br>パチンカス
-                </button>
-                <button type="button" class="voice" name="a?" onclick="sound(this.name)">
-                    あ？
-                </button>
-                <button type="button" class="voice" name="daaatt" onclick="sound(this.name)">
-                    だあ゛あ゛っ
-                </button>
-                <button type="button" class="voice" name="sad" onclick="sound(this.name)">
-                    悲しいなぁ
-                </button>
-                <button type="button" class="voice" name="death" onclick="sound(this.name)">
-                    死だよ死
-                </button>
+            <div class="category">
+                <h2>迷言たち</h2>
+                <div id="sentences">
+                    <button type="button" class="sentence" name="kiretawa" onclick="Sound(this.name)">
+                        キレたわ
+                    </button>
+                    <button type="button" class="sentence" name="bukii" onclick="Sound(this.name)">
+                        ぶきぃ〜！
+                    </button>
+                    <button type="button" class="sentence" name="bukibuki" onclick="Sound(this.name)">
+                        ぶきぶきして<br>きたわ
+                    </button>
+                    <button type="button" class="sentence" name="pachikasu" onclick="Sound(this.name)">
+                        30代後半独身<br>パチンカス
+                    </button>
+                    <button type="button" class="sentence" name="a?" onclick="Sound(this.name)">
+                        あ？
+                    </button>
+                    <button type="button" class="sentence" name="daaatt" onclick="Sound(this.name)">
+                        だあ゛あ゛っ
+                    </button>
+                    <button type="button" class="sentence" name="sad" onclick="Sound(this.name)">
+                        悲しいなぁ
+                    </button>
+                    <button type="button" class="sentence" name="death" onclick="Sound(this.name)">
+                        死だよ死
+                    </button>
+                    <button type="button" class="sentence" name="aaa" onclick="Sound(this.name)">
+                        ああぁ～ぁあ
+                    </button>
+                    <button type="button" class="sentence" name="mo-" onclick="Sound(this.name)">
+                        も～
+                    </button>
+                    <button type="button" class="sentence" name="wakatta?" onclick="Sound(this.name)">
+                        わかった？
+                    </button>
+                    <button type="button" class="sentence" name="kanojo" onclick="Sound(this.name)">
+                        彼女が欲しいんっじゃっ
+                    </button>
+                    <button type="button" class="sentence" name="sadja" onclick="Sound(this.name)">
+                        悲しいんじゃ
+                    </button>
+                    <button type="button" class="sentence" name="DYU" onclick="Sound(this.name)">
+                        Do You<br>Understand?
+                    </button>
+                </div>
+            </div>
+            <div class="category">
+                <h2>ドラムループ</h2>
+                <div>
+                    <button type="button" class="sentence" name="drumloop112" onclick="Sound(this.name)">
+                        Drum Loop<br>112bpm
+                    </button>
+                </div>
             </div>
         </div>
     </body>
